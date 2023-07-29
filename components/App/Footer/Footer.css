@@ -1,0 +1,22 @@
+/* ---- header/footer styles ----- */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 250px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+footer > img {
+    width: 420px;
+    height: auto;
+}
+
+@media all and (max-width: 700px) {
+    header, footer {
+        border-radius: 0;
+    }
+}
+/* ------------------------------ */

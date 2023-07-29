@@ -1,0 +1,10 @@
+/* -- characters loader styles -- */
+.characters__loading-section {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto 70px auto;
+    border-radius: 8px;
+    background-color: #fff; 
+}
+/* ------------------------------ */

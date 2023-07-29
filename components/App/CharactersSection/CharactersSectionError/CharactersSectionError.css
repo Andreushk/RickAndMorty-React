@@ -1,0 +1,35 @@
+/* - characters container error styles - */
+.characters__error-section {
+    position: relative;
+    box-sizing: border-box;
+    min-height: 70vh;
+}
+
+.characters__error-section > p {
+    position: absolute;
+    top: 50%; left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    font-weight: 600;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+@media all and (max-width: 1000px) {
+    .characters__error-section > p {
+        width: 70%;
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 525px) {
+    .characters__error-section > p {
+        width: 70%;
+        font-size: 16px;
+        text-align: center;
+    }
+}
+/* ------------------------------------- */

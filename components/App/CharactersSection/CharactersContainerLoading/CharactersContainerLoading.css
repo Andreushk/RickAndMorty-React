@@ -1,0 +1,11 @@
+/* - characters container loader styles - */
+.characters__loader-section {
+    position: relative;
+    box-sizing: border-box;
+    min-height: 70vh;
+}
+
+.characters__loader-section > div div {
+    background-color: #fff;
+} 
+/* -------------------------------------- */

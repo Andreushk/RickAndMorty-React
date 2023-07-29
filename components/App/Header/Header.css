@@ -1,0 +1,17 @@
+/* ------- header styles -------- */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 95px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+@media all and (max-width: 700px) {
+    header {
+        border-radius: 0;
+    }
+}
+/* ------------------------------ */
